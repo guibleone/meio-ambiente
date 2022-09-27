@@ -1,0 +1,83 @@
+header {
+	background: #064420;
+}
+
+.admin-wrapper {
+	display: flex;
+	height: calc(100% - 66px);
+}
+
+.admin-wrapper .left-sidebar {
+	display: flex;
+	height: 100%;
+	background: #085829;
+	width: 500px;
+	margin-top: 20px;
+}
+
+.admin-wrapper .left-sidebar ul {
+	width: 100%;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	color: rgb(255, 255, 255);
+	justify-content: center;
+	text-align: center;
+}
+
+.admin-wrapper .left-sidebar ul li a {
+	padding: 18px;
+	display: block;
+	border: 4px solid #FDFAF6;
+
+}
+
+.admin-wrapper .left-sidebar ul li a:hover {
+	background: #2dab35;
+}
+
+.admin-wrapper .admin-content {
+	flex: 8;
+	height: 100%;
+	padding: 40px 100px 100px;
+	overflow-y: scroll;
+}
+.admin-content .page-title {
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 1.1rem;
+}
+
+th,
+td {
+	padding: 15px;
+	text-align: left;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+.edit {
+	color: green;
+}
+
+.delete {
+	color: red;
+}
+
+.publish {
+	color: blue;
+}
+
+.edit:hover,
+.delete:hover,
+.publish:hover {
+	text-decoration: underline;
+}
+
+form div {
+	margin-bottom: 15px;
+}
