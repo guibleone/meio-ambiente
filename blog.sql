@@ -5,7 +5,9 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `blog`
 --
+CREATE DATABASE blog;
 
+USE blog;
 -- --------------------------------------------------------
 
 --
